@@ -4,47 +4,94 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>index</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="media.css">
-
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-  <header class="header">
-    <h1>SouthSide3D</h1>
-    <nav class="header_sections">
-      <a href="galeria.html"> Galeria </a>
-      <a href="servicios.html"> Servicios </a>
-      <a href="informacion.html"> Información </a>
-      <a href="Contacto.html"> Contacto </a>
-      <a href="https://www.instagram.com/lautaro_leon7/"><img src="imagenes/instagram.png" alt="LogoInstagram"></a>
-      <a href="https://www.facebook.com/lautaroleon.aquino.9/"><img src="imagenes/facebook.png" alt="LogoFacebook"></a>
+<!-- HEADER -->
+
+  <header class="container">
+    <h1 class="text-center">SOUTH SIDE 3D</h1>
+    <nav class="nav d-flex justify-content-between">
+
+      <div class="nav-link">
+        <a href="galeria.html"> Galeria </a>
+      </div>
+
+      <div class="nav-link">
+        <a href="servicios.html"> Servicios </a>
+      </div>
+
+      <div class="nav-link">
+        <a href="informacion.html"> Información </a>
+      </div>
+
+      <div class="nav-link">
+        <a href="Contacto.html"> Contacto </a>
+      </div>
+
+      <div class="nav-link">
+        <a href="https://www.instagram.com/lautaro_leon7/"><img src="imagenes/instagram.png" alt="LogoInstagram"></a>
+      </div>
+
+      <div class="nav-link">
+        <a href="https://www.facebook.com/lautaroleon.aquino.9/"><img src="imagenes/facebook.png" alt="LogoFacebook"></a>
+      </div>
     </nav>
   </header>
-  
-  <main class="main">
-    <h2> INICIO </h2>
-    <div class="hero">
-      <img class="img_inicio" src="imagenes/teclado.jpg" alt="Teclado">
+<!-- FIN DEL HEADER -->
+
+<!-- MAIN -->
+  <main class="container-fluid">
+    <h2 class="text-center">INICIO</h2>
+    <div class="d-flex flex-row">
+      <p class="col-8 p-2">Nuestro trabajo se basa en el diseño grafico y modelado en tres caras o dimensiones (3D) modelando entornos de planificación urbana, arquitectura, o diseños escenicos. Brindando asi un servicio profesional de asesoramiento</p>
+      <p class="col-4 p-2">Trabajamos para tus estudios o proyectos de arquitectura y tambien para tus diseños de interiores y mas!.</p>
     </div>
+      <img class="rounded mx-auto d-block p-2" src="imagenes/teclado.jpg" width="1200" height="400" alt="Teclado">
+      <div class="container-fluid p-2">
+        <h3 class="m-4">Lo ultimo realizado</h3>
+        <div class="d-flex justify-content-between">
+          <p>PROPIEDAD</p>
+          <img class="col-4" src="imagenes/Propiedad.jpg" alt="Propiedad">
+          <p>RACK</p>
+          <img class="col-4" src="imagenes/mueble.png" alt="Ratonera">
+        </div>
+      </div>
   </main>
-  <h3>LO NUEVO</h3>
-  <div class="hero_2">
-      <p>PROPIEDAD</p>
-      <img class="img_lo_nuevo" src="imagenes/Propiedad.jpg" alt="Propiedad">
+<!-- FIN DEL MAIN -->
+
+<!-- FOOTER -->
+  <footer class="p-1 mb-2 bg-light">
+    <div class="nav justify-content-start">
+      
+      <div class="nav-link">
+        <a href="index.html">Inicio</a>
+      </div>
+      
+      <div class="nav-link">
+        <a href="galeria.html"> Galeria </a>
+      </div>
+      
+      <div class="nav-link">
+        <a href="servicios.html"> Servicios </a>
+      </div>
+      
+      <div class="nav-link">
+        <a href="informacion.html"> Información </a>
+      </div>
+      
+      <div class="nav-link">
+        <a href="Contacto.html"> Contacto </a>
+      </div>
+      
     </div>
-    <br>
-  <div class="hero_2">
-    <p>RACK</p>
-    <img class="img_lo_nuevo" src="imagenes/mueble.png" alt="Ratonera">
-  </div>
-  <footer class="footer">
-    <a href="index.html">Inicio</a>
-    <a href="galeria.html"> Galeria </a>
-    <a href="servicios.html"> Servicios </a>
-    <a href="informacion.html"> Información </a>
-    <a href="Contacto.html"> Contacto </a>
   </footer>
+<!-- FIN DEL FOOTER-->
+
 </body>
 </html>
