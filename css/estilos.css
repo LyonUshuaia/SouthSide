@@ -1,0 +1,58 @@
+.table__info {
+  color: rebeccapurple;
+  border: solid 2px rebeccapurple; }
+
+.service__p {
+  background-color: rebeccapurple;
+  color: white;
+  text-align: center; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(imagenes/Psicodelic.png); }
+
+.title__sections {
+  background: rebeccapurple;
+  color: white;
+  text-align: center; }
+
+.footer {
+  color: rebeccapurple;
+  text-align: center;
+  padding-top: 40px; }
+
+.header__links {
+  background: rebeccapurple;
+  color: white;
+  text-decoration: none; }
+
+.links_deco {
+  color: white; }
+
+.main__contacto {
+  color: rebeccapurple;
+  font-size: 15px;
+  gap: 1rem; }
+
+.sub__contacto {
+  color: rebeccapurple;
+  text-align: center;
+  padding: 20px; }
+
+.main__index {
+  color: rebeccapurple; }
+
+.header__index {
+  background-color: rebeccapurple;
+  color: white;
+  text-decoration: none; }
+
+.main__index {
+  color: rebeccapurple; }
+
+.main__galery {
+  color: rebeccapurple; }

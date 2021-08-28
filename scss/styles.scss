@@ -1,0 +1,27 @@
+@import "./variables";
+@import "./informacion";
+@import "./servicios";
+@import "./globales";
+@import "./contacto";
+
+
+
+// INDEX // 
+.main__index {
+  color: $color-primario;
+}
+
+  .header__index {
+    background-color: $color-primario;
+    color: $color-secundario;
+    text-decoration: none;
+    }
+
+    .main__index {
+      color: $color-primario;
+    }
+
+// GALERIA //
+.main__galery {
+  color: $color-primario;
+}

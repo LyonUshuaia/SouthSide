@@ -4,54 +4,57 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>INICIO</title>
+  <title>INICIO | SOUTHSIDE</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/estilos.css">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 
 </head>
 <body>
 <!-- HEADER -->
-  <header class="container-fluid">
-    <h1>SOUTH SIDE 3D</h1>
-    <div class="container row">
+<header class="header__index">
+  <div class="container">
+    <div class="header__links__index">
+
       <nav class="nav d-flex justify-content-between">
-        <div class="d-none d-md-flex">
+        <h1 class="text-center">SOUTH SIDE 3D</h1>
+        <div class="d-none d-md-flex pl-6">
           <div class="nav-link">
-            <a href="galeria.html"> Galeria </a>
+            <a class="links__deco" href="galery.html">GALERIA</a>
           </div>
           
           <div class="nav-link">
-            <a href="servicios.html"> Servicios </a>
+            <a class="links__deco" href= "service.html">SERVICIOS</a>
           </div>
           
           <div class="nav-link">
-            <a href="informacion.html"> Información </a>
+            <a class="links__deco" href= "informacion.html">INFORMACION</a>
           </div>
           
           <div class="nav-link">
-            <a href="Contacto.html"> Contacto </a>
+            <a class="links__deco" href= "Contacto.html">CONTACTO</a>
           </div>
           
           <div class="nav-link">
-            <a href="https://www.instagram.com/lautaro_leon7/"><img src="imagenes/instagram.png" alt="LogoInstagram"></a>
+            <a href= "https://www.instagram.com/lautaro_leon7/"><img src="imagenes/instagram.png" alt="LogoInstagram"></a>
           </div>
           
           <div class="nav-link">
             <a href="https://www.facebook.com/lautaroleon.aquino.9/"><img src="imagenes/facebook.png" alt="LogoFacebook"></a>
           </div>
         </nav>
+
+    </div>
       </div>
       <div class="dropdown d-md-none col-6 p-2">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
           <i class="fas fa-bars"></i>
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="galeria.html">GALERIA</a></li>
-          <li><a class="dropdown-item" href="servicios.html">SERVICIO</a></li>
+          <li><a class="dropdown-item" href="galery.html">GALERIA</a></li>
+          <li><a class="dropdown-item" href="service.html">SERVICIO</a></li>
           <li><a class="dropdown-item" href="informacion.html">INFORMACION</a></li>
           <li><a class="dropdown-item" href="Contacto.html">CONTACTO</a></li>
         </ul>
@@ -59,13 +62,16 @@
     </div>
     </header>
 <!-- FIN DEL HEADER -->
+<br>
 
-<main>
-  <h2 class="text-center">INICIO</h2>
-  <div class="d-flex flex-row">
-    <h5 class="col-8 p-2">Nuestro trabajo se basa en el diseño grafico y modelado en tres caras o dimensiones (3D) modelando entornos de planificación urbana, arquitectura, o diseños escenicos. Brindando asi un servicio profesional de asesoramiento</h5>
-    <h5 class="col-4 p-2">Trabajamos para tus estudios o proyectos de arquitectura y tambien para tus diseños de interiores y mas!.</h5>
-  </main>
+  <main class="main__index">
+    <div class="title__sections">
+      <h2 class="text-center">INICIO</h2>
+    </div>
+    <div class="d-flex flex-row">
+      <h5 class="col-7 p-2">Nuestro trabajo se basa en el diseño grafico y modelado en tres caras o dimensiones (3D) modelando entornos de planificación urbana, arquitectura, o diseños escenicos. Brindando asi un servicio profesional de asesoramiento</h5>
+      <h5 class="col-5 p-2">Trabajamos para tus estudios o proyectos de arquitectura y tambien para tus diseños de interiores y mas!.</h5>
+    </main>
     
     <!-- Carousel -->
     <div class="container">
@@ -97,10 +103,10 @@
     </div>
     <!-- Fin del  carousel -->
 
-    <main>
-      <div class="container-fluid p-2">
+    <main class="main__index">
+      <div class="container text-center">
         <h3 class="m-4">Lo ultimo realizado</h3>
-        <div class="d-flex justify-content-between">
+        <div class="d-flex justify-content-around">
           <p>PROPIEDAD</p>
           <img class="col-4" src="imagenes/Propiedad.jpg" alt="Propiedad">
           <p>RACK</p>
@@ -110,30 +116,8 @@
     </main>
 
 <!-- FOOTER -->
-  <footer class="p-1 mb-2 bg-light">
-    <div class="nav justify-content-start">
-      
-      <div class="nav-link">
-        <a href="index.html">Inicio</a>
-      </div>
-      
-      <div class="nav-link">
-        <a href="galeria.html"> Galeria </a>
-      </div>
-      
-      <div class="nav-link">
-        <a href="servicios.html"> Servicios </a>
-      </div>
-      
-      <div class="nav-link">
-        <a href="informacion.html"> Información </a>
-      </div>
-      
-      <div class="nav-link">
-        <a href="Contacto.html"> Contacto </a>
-      </div>
-      
-    </div>
+  <footer class="footer">
+    <small>© Hecho por SouthSide 3D</small>
   </footer>
 <!-- FIN DEL FOOTER-->
 </body>

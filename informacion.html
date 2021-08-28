@@ -4,35 +4,71 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Informacion</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>INFORMACIÓN | SOUTHSIDE</title>
 </head>
 <body>
-  <header class="header_contacto">
-    <h2>Informacion</h2>
+  <header class="header__links">
+    <ul class="nav justify-content-center d-none d-md-flex">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">INICIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="galery.html">GALERIA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="service.html">SERVICIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="informacion.html">INFORMACIÓN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacto.html">CONTACTO</a>
+      </li>
+    </ul>
+    <div class="dropdown d-md-none col-6 p-2">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="index.html">INICIO</a></li>
+        <li><a class="dropdown-item" href="galery.html">GALERIA</a></li>
+        <li><a class="dropdown-item" href="service.html">SERVICIO</a></li>
+        <li><a class="dropdown-item" href="informacion.html">INFORMACIÓN</a></li>
+        <li><a class="dropdown-item" href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </div>
   </header>
-  <table cellpadding="5" cellspacing="5">
-    <tr>
-      <th>¿Quien soy?</th>
-      <th>¿De donde soy?</th>
-      <th>¿A que me dedico?</th>
-      <th>¿Hobbie?</th>
-    </tr>
-    <br>
-    <tr>
-      <td>Hola me presento, soy Lautaro Leon y soy maestro mayor de obras</td>
-      <td>Soy de Argentina, actualmente vivo en la provincia de Tierra del Fuego</td>
-      <td>Me dedico a la modelacion y diseño grafico basado en las tres dimensiones (3D)</td>
-      <td>Competidor semi-profesional practicante de kick boxing</td>
-    </tr>
-  </table>
-  
+
+  <br>
+
+  <main>
+    <div class="title__sections">
+      <h2>INFORMACIÓN</h2>
+    </div>
+    <div class="container">
+      <table cellpadding="5" cellspacing="5">
+        <tr>
+          <th class="table__info">¿Quien soy?</th>
+          <th class="table__info">¿De donde soy?</th>
+          <th class="table__info">¿A que me dedico?</th>
+          <th class="table__info">¿Hobbie?</th>
+        </tr>
+        <br>
+        <tr>
+          <td class="table__info">Hola me presento, soy Lautaro Leon y soy maestro mayor de obras</td>
+          <td class="table__info">Soy de Argentina, actualmente vivo en la provincia de Tierra del Fuego</td>
+          <td class="table__info">Me dedico a la modelacion y diseño grafico basado en las tres dimensiones (3D)</td>
+          <td class="table__info">Competidor semi-profesional practicante de kick boxing</td>
+        </tr>
+      </table>
+    </div>
+    </main>
+
   <footer class="footer">
-    <a href="index.html">Inicio</a>
-    <a href="galeria.html"> Galeria </a>
-    <a href="servicios.html"> Servicios </a>
-    <a href="informacion.html"> Información </a>
-    <a href="Contacto.html"> Contacto </a>
+    <small>© Hecho por SouthSide 3D</small>
   </footer>
 </body>
 </html>

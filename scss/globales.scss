@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+	background-image: url(imagenes/Psicodelic.png);
+}
+
+.title__sections {
+  background: $color-primario;
+  color: $color-secundario;
+  text-align: center;
+}
+
+.footer {
+  color: $color-primario;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.header__links {
+  background: $color-primario;
+  color: $color-secundario;
+  text-decoration: none;
+}
+
+.links_deco {
+  color: $color-secundario;
+}
+
