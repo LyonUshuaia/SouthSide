@@ -1,0 +1,70 @@
+$root-size: 8px;
+$default-width: 1200px;
+
+// operacion //
+ //.testclass {
+  //font-size: 4 * $root-size;
+  //width: $default-width / 662;
+//}
+//condiciones//
+
+//.testclass {
+  //@if $root-size == 4px {
+  //color: red;
+  //} @else if $root-size == 6px {
+  //color: black;
+  //} @else {
+  //color: orange; 
+  //}
+//}
+//bucles// 
+
+//for// 
+//@for $i from 1 through 3 {
+//  .testclass#{$i} {
+//    margin-top: $i * 1rem;
+//  }
+//}
+//each//
+
+//@each $nombre in $nombres {
+//  .#{$nombre} {
+//    font-size: 5px
+//  }
+//}
+//maps//
+
+//extend //
+.testclassBase {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1px;
+  background-color: red;
+  color: white;
+}
+//@for $i from 1 to 6 {
+//  .testclassBase-#{$i} {
+//    @extend .testclassBase;
+//    border-radius: $i * $root-size;
+//  }
+//}
+//.margin {
+//  background-color: red;
+//  color: white;
+//}
+///mixins //
+//@mixin randomclass($nombre, $propiedad, $valor) {
+//  .#{$nombre} {
+//    @extend .margin;
+//    #{$propiedad}: $valor
+//  }
+//}
+//@for $i from 1 through 6 {
+//  @include randomclass(mt-#{$i}, margin-top, $i)
+//  @include randomclass(mb-#{$i}, margin-bottom, $i)
+//  @include randomclass(ml-#{$i}, margin-left, $i)
+//  @include randomclass(mr-#{$i}, margin-right, $i)
+//
+//}
+
+//@include randomclass(btn, border-radius, 15px)
